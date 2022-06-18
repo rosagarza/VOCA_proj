@@ -9,6 +9,6 @@ We also found that for VOCA, you will need Python version 3.6 in order for Tenso
 
 Follow VOCA to train the model in order to run the model with our code.
 
-## Utilizing our model
+## Running our project
 
 Run the .sh file provided where you will specify `./voca_pipeline.sh user_output.wav`. The .wav file will be the recorded output from the user and this will be scripted to run a pipeline where it will send the input .wav audio to the pipeline.py file where this will use GPT3 to produce an output. After, VOCA should take the .mp3 output and show the .mp4 file of the talking head on the GUI once the "Listen to recording" button is pushed.
